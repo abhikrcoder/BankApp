@@ -3,8 +3,8 @@ pipeline {
   environment {
     MAVEN_ARGS=" -e clean install"
     registry = ""
-    dockerContainerName = 'bookapi'
-    dockerImageName = 'bookapi-api'
+    dockerContainerName = 'bank-app'
+    dockerImageName = 'bank-app'
   }
   stages {
     stage('Build') {
