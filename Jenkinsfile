@@ -1,7 +1,7 @@
 pipeline {
     agent any
   environment {
-    MAVEN_ARGS=" -e clean install"
+    MAVEN_ARGS=" -B -DskipTests clean package"
     registry = ""
     dockerContainerName = 'bank-app'
     dockerImageName = 'bank-app'
