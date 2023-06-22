@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BankController {
 
     @GetMapping("message")
-    public String getMessage(){http://3.95.197.132:8082/message
-        return "I love you shefali";
+    public String getMessage(){
+        return "Hello Deployed";
     }
 }
